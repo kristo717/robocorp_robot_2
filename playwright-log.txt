@@ -1,0 +1,12 @@
+{"level":30,"time":"2022-03-22T00:28:57.797Z","pid":50324,"hostname":"kristopher-A320M-S2H-V2","msg":"Listening on 38579"}
+{"level":30,"time":"2022-03-22T00:28:57.870Z","pid":50324,"hostname":"kristopher-A320M-S2H-V2","msg":"Start of node method typeText"}
+{"level":30,"time":"2022-03-22T00:28:57.871Z","pid":50324,"hostname":"kristopher-A320M-S2H-V2","msg":"Error of node method  typeText"}
+================= Original suppressed error =================
+Error: Could not find active page
+    at exists (/home/kristopher/.robocorp/holotree/2b7547ee0_e1d70b5a/lib/python3.7/site-packages/Browser/wrapper/index.js:5972:11)
+    at findLocator (/home/kristopher/.robocorp/holotree/2b7547ee0_e1d70b5a/lib/python3.7/site-packages/Browser/wrapper/index.js:5840:3)
+    at typeText (/home/kristopher/.robocorp/holotree/2b7547ee0_e1d70b5a/lib/python3.7/site-packages/Browser/wrapper/index.js:6489:26)
+    at PlaywrightServer.typeText (/home/kristopher/.robocorp/holotree/2b7547ee0_e1d70b5a/lib/python3.7/site-packages/Browser/wrapper/index.js:7287:34)
+    at handleUnary (/home/kristopher/.robocorp/holotree/2b7547ee0_e1d70b5a/lib/python3.7/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:451:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+=============================================================
